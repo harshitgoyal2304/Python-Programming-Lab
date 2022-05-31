@@ -1,0 +1,5 @@
+import numpy as np
+
+with open("Practice.txt", "r") as f:
+    arr = np.array(f.readlines())
+    print(arr)
